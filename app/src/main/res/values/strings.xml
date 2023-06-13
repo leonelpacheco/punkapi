@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">IntercamLP</string>
+
+
+    <string name="rowbeer_txt_title">Buzz</string>
+    <string name="rowbeer_txt_subtitle">Sam Mason</string>
+    <string name="rowbeersaved_txt_title">Trashy Blonde</string>
+    <string name="rowbeersaved_txt_subtitle">Trashy Blonde,Trashy Blonde</string>
+    <string name="rowbeersaved_txt_rating">Rate this Beer</string>
+
+    <string name="includepropiedades_txt_textabv">ABV</string>
+    <string name="includepropiedades_txt_abv">4.5%</string>
+    <string name="includepropiedades_txt_textibu">IBU</string>
+    <string name="includepropiedades_txt_ibu">60</string>
+    <string name="includepropiedades_txt_textog">OG</string>
+    <string name="includepropiedades_txt_og">1044</string>
+    <string name="includepropiedades_txt_textfg">FG</string>
+    <string name="includepropiedades_txt_fg">1010</string>
+
+
+    <string name="detallebeer_txt_texttips">Brewers Tips</string>
+    <string name="detallebeer_txt_tips">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</string>
+    <string name="detallebeer_txt_textyeast">Yeast</string>
+    <string name="detallebeer_txt_yeast">Wyeast 1056 -American Ale-</string>
+    <string name="detallebeer_txt_textexperience">A Real Bitter Experience.</string>
+    <string name="detallebeer_txt_experience">First breweb 09/2007</string>
+    <string name="detallebeer_txt_beer">20 Litros</string>
+    <string name="detallebeer_txt_title">Trashy Blonde</string>
+
+    <string name="dialog_info_txt_title">Aviso</string>
+    <string name="dialog_info_txt_contenido">¿Deseas salir de la aplicación? \n</string>
+    <string name="dialog_btn_cancel">Cancelar</string>
+    <string name="dialog_btn_accept">Aceptar</string>
+
+    <string name="detallebeer_txt_textfood">Food Paring</string>
+    <string name="detallebeer_txt_hops">Hops:</string>
+    <string name="detallebeer_txt_malt">Malt:</string>
+
+    <string name="login_etxt_user">User</string>
+    <string name="login_etxt_password">Password</string>
+    <string name="login_btn_entrar">Entrar</string>
+    <string name="login_dialog_error">Usuario y contraseña incorrectos intente de nuevo. \n</string>
+
+    <string name="txt_setError">Campo vacio</string>
+    <string name="toast_txt_save">Guardado en favoritos</string>
+
+    <string name="menu_txt_beer_label">Beer</string>
+    <string name="menu_txt_detail_beer_label">Detail Beer</string>
+
+    <string name="detailbeer_txt_firstbrewer">First breweb: </string>
+
+
+</resources>

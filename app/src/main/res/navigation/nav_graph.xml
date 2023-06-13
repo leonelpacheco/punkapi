@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/beerFragment">
+
+    <fragment
+        android:id="@+id/beerFragment"
+        android:name="com.leonel.intercamlp.ui.beers.BeerFragment"
+        android:label="@string/menu_txt_beer_label"
+        tools:layout="@layout/fragment_beer">
+        <action
+            android:id="@+id/action_beerFragment_to_detailbeerFragment"
+            app:destination="@id/detailbeerFragment"
+            app:popUpTo="@id/beerFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_beerFragment_to_favoritesFragment"
+            app:destination="@id/favoritesFragment"
+            app:popUpTo="@id/beerFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailbeerFragment"
+        android:name="com.leonel.intercamlp.ui.detailbeer.DetailBeerFragment"
+        android:label="@string/menu_txt_detail_beer_label"
+        tools:layout="@layout/fragment_login">
+        <argument
+            android:name="detailBeer"
+            app:argType="com.leonel.intercamlp.model.Beer" />
+        <action
+            android:id="@+id/action_detailbeerFragment_to_favoritesFragment"
+            app:destination="@id/favoritesFragment"
+            app:popUpTo="@id/detailbeerFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.leonel.intercamlp.ui.favorites.FavoritesFragment"
+        android:label="Favorites Beer"
+        tools:layout="@layout/fragment_favorites"/>
+</navigation>
